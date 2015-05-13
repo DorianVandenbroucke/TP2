@@ -1,16 +1,23 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #efefef;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #header
 {
-	background: #ccc;
+	background: #0098d8;
 	padding: 20px;
+	text-align: center;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0;color: white;}
 
 #navigation
 {
@@ -45,19 +52,26 @@
 
 #edito
 {
-	clear: left;
+	width: 80%;
 	padding: 20px;
-	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	border: 1px solid #efefef;
+	border-bottom: 1px solid #0098d8;
+	border-right: 1px solid #0098d8;
+	background-color: white;
+}
+
+#edito:hover{
+    background-color: #efefef;
+    transition: 0.5s;
+    border: 1px solid #0098d8;
 }
 
 #edito h2
@@ -69,20 +83,27 @@
 
 #news
 {	
-	float: left;
-	width: 40%;
+	width: 80%;
 	padding: 20px;
-	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	margin: auto;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	border: 1px solid #efefef;
+	border-bottom: 1px solid #0098d8;
+	border-right: 1px solid #0098d8;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+
+#news:hover{
+    background-color: #efefef;
+    transition: 0.5s;
+    border: 1px solid #0098d8;
 }
 
 #footer
@@ -93,3 +114,8 @@
 	padding: 20px;
 	height: 1%;
 }
+
+
+a{font-weight: bold; text-decoration: none;color: black;}
+
+a:hover{text-decoration: underline;}
